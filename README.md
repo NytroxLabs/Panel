@@ -52,6 +52,7 @@ Welcome to **NytroxPanel**, the ultimate tool for managing and controlling your 
    ```
 2. Navigate to the directory:
    ```bash
+   unzip NytroxPanel.zip
    mv panel nytrox
    cd nytrox
    npm install
