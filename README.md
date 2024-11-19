@@ -46,7 +46,11 @@ Welcome to **NytroxPanel**, the ultimate tool for managing and controlling your 
 
 # Installation
 
-1. Clone the repository:
+1. Choose Destination:
+   ```bash
+   cd /var/www/
+   ```
+2. Clone the repository:
    ```bash
    git clone https://github.com/NytroxLabs/Panel.git
    ```
