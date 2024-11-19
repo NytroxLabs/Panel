@@ -48,7 +48,7 @@ Welcome to **NytroxPanel**, the ultimate tool for managing and controlling your 
 
 1. Choose Destination:
    ```bash
-   cd /var/www/
+   cd /etc
    ```
 2. Clone the repository:
    ```bash
