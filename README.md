@@ -52,11 +52,10 @@ Welcome to **NytroxPanel**, the ultimate tool for managing and controlling your 
    ```
 2. Clone the repository:
    ```bash
-   git clone https://github.com/NytroxLabs/Panel.git
+   git clone v0.1.1 https://github.com/NytroxLabs/Panel.git
    ```
 2. Navigate to the directory:
    ```bash
-   unzip NytroxPanel.zip
    mv panel nytrox
    cd nytrox
    npm install
@@ -71,6 +70,22 @@ Welcome to **NytroxPanel**, the ultimate tool for managing and controlling your 
    ```bash
    node .
    ```
+__________________________________________________
+# For Production Applications
+- **To deploy `nytroxpanel` efficiently in production, using PM2 or alternatives is recommended. Below are the standard PM2 setup steps.**
+
+**Run the following command to install PM2:**
+```npm install pm2@latest -g
+pm2 start index.js
+```
+
+# Advanced Users: Auto-Run on Startup
+**With the PM2 process running in the background, run the following command:**
+```pm2 startup
+```
+**Then, to 'freeze' the running processes, run the following command:**
+```pm2 save
+```
 
 # Usage
 
