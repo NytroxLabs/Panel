@@ -75,16 +75,19 @@ __________________________________________________
 - **To deploy `nytroxpanel` efficiently in production, using PM2 or alternatives is recommended. Below are the standard PM2 setup steps.**
 
 **Run the following command to install PM2:**
-```npm install pm2@latest -g
+```
+npm install pm2@latest -g
 pm2 start index.js
 ```
 
 # Advanced Users: Auto-Run on Startup
 **With the PM2 process running in the background, run the following command:**
-```pm2 startup
+```
+pm2 startup
 ```
 **Then, to 'freeze' the running processes, run the following command:**
-```pm2 save
+```
+pm2 save
 ```
 
 # Usage
